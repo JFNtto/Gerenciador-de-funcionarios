@@ -1,0 +1,7 @@
+package Empresa.FuncionariosFun.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import Empresa.FuncionariosFun.model.Cargo;
+
+public interface CargoRepository extends JpaRepository<Cargo, Integer>{}
